@@ -12,6 +12,7 @@ import Navbar from "./components/shared/Navbar";
 import Footer from "./components/shared/Footer";
 import Routes from "./routes";
 import ApiService from "./utils/api-service";
+import BootstrapTable from "./pages/BootstrapTable";
 
 function App() {
   const [user, setUser] = useState({});
@@ -33,6 +34,7 @@ function App() {
       <Router>
         <Header />
         <Navbar />
+        <BootstrapTable/>
         <Routes />
 
         <Footer />
